@@ -16,6 +16,7 @@ class MyAdapter(private val roomList :List<roomCleaningView>) :RecyclerView.Adap
 
     override fun getItemCount(): Int {
         return roomList.size
+
     }
 
 
