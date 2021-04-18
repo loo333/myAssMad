@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/acceptBtn"
+            android:layout_width="81dp"
+            android:layout_height="35dp"
+            android:layout_alignTop="@+id/roomIdTV"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="-1dp"
+            android:layout_toEndOf="@id/roomIdTV"
+            android:text="Accept"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/roomIdTV"
+            android:layout_width="146dp"
+            android:layout_height="32dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="62dp"
+            android:layout_marginTop="6dp"
+            android:textAlignment="textStart" />
+
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
